@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+/* NavFront */
+.container__navfront
+{
+    background: rgba(6, 13, 26, 0.3);
+}
+
+
+

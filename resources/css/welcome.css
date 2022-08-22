@@ -1,0 +1,41 @@
+/* welcome */
+.container__h
+{
+    background-image:linear-gradient(rgba(16, 32, 61, 0.5), rgba(121, 3, 105, 0.5)),url('./../js/assets/img/background.jpg');
+    background-size: 100% 100%;
+}
+.container__silico
+{
+    font-family: 'Dosis', sans-serif;
+}
+.container__localisation
+{
+    background-image:url('./../js/assets/img/ActiveByNature.png');
+    background-size: 150% 130%;
+}
+.style__card
+{
+    width: 100%;
+}
+.particule::after
+{
+    content: "";
+    padding-left: 6px;
+    border-right: 2px solid;
+    animation: typing .8s infinite;
+}
+
+@keyframes typing {
+    50%{
+        opacity: 0;
+    }
+}
+
+.about
+{
+    grid-template-columns: 40% 60%;
+}
+.about__name
+{
+    font-family: 'Lobster', cursive;
+}

@@ -1,0 +1,17 @@
+.contact__img__silico
+{
+    background-image:url('./../js/assets/img/contact.jpg');
+    background-size: 100% 120%;
+}
+
+.contact__grid__container
+{
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.contact__grid__phone
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+
+}
